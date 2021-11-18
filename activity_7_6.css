@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+}
+
+nav .first-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+}
+
+nav .second-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    width: 100%;
+    list-style: none;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+}
+.second-div li:hover {
+    text-decoration: underline red;
+    text-decoration-thickness: 20%;
+    text-underline-offset: 50%;
+    line-height: 30%;
+    cursor: pointer;
+}
+
+nav .third-div{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.img1{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    margin: 0 2rem;
+}
+
+.img2{
+    width: 15%;
+}
+
+/* ______________________main body------------------------ */
+.main-body{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.left .matebook{
+    font-size: 37px;
+    font-family: 'Poppins';
+    opacity: 0.7;
+    font-weight: 500;
+}
+
+.left .slogan{
+    margin: 2rem 0;
+    font-size: 23px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.left .desc{
+    font-size: 1.3rem;
+    margin: 0 10px 3rem 0;
+    font-family: 'Poppins', sans-serif;
+    opacity: 0.6;
+}
+
+.btn1{
+    padding: 3px 7px;
+    font-size: 1.4rem;
+    border: 2px solid #9f1f95;
+    border-radius: 2px;
+    background-color: transparent;
+    color: #9f1f95;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn2{
+    padding: 7px 15px;
+    font-size: 1.1rem;
+    color: white;
+    border: 1px solid #9f1f95;
+    border-radius: 2px;
+    background-color: #9f1f95;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 2rem;
+}
+
+.right img {
+    width: 70%;
+    box-shadow: 1px 8px 5px 0px #525252;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    margin: 0 0 0 4rem;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.arrow{
+    display: flex;
+    justify-content: right;
+}
+.arrow img{
+    width: 30%;
+    margin: 0 16rem 0 0; 
+}
+
+footer p{
+    padding: 7px 66px;
+    font-size: 24px;
+    font-weight: 500;
+    opacity: 0.9;
+    font-family: 'Poppins', sans-serif;
+}
